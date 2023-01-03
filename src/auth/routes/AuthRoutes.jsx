@@ -7,7 +7,7 @@ export const AuthRoutes = () => {
         <Route path='login' element={ <LoginPage /> }/>
         <Route path='register' element={ <RegisterPage /> }/>
 
-        <Route path='/diario-app/*' element={ <Navigate to="/diario-app/auth/login" /> }/>
+        <Route path='/*' element={ <Navigate to="/auth/login" /> }/>
     </Routes>
   )
 }

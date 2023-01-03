@@ -7,7 +7,7 @@ export const JournalRoutes = () => {
     <Routes>
         <Route path="/" element={ <JournalPage /> } />
         
-        <Route path="/*" element={ <Navigate to="/diario-app/" /> } />
+        <Route path="/*" element={ <Navigate to="/" /> } />
     </Routes>
   )
 }
