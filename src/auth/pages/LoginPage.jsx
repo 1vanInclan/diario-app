@@ -86,6 +86,7 @@ export const LoginPage = () => {
               <Grid item xs={12} sm={ 6 }>
                 <Button
                   disabled = { isAuthenticating }
+                  color='secondary'
                   type="submit" 
                   variant='contained' 
                   fullWidth
@@ -96,6 +97,7 @@ export const LoginPage = () => {
 
               <Grid item xs={12} sm={ 6 }>
                 <Button
+                  color='secondary'
                   disabled = { isAuthenticating } 
                   variant='contained' 
                   fullWidth

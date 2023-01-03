@@ -25,7 +25,7 @@ export const SideBarItem = ({ title = '', body, id, date, imageUrls = [] }) => {
         <ListItem disablePadding>
             <ListItemButton onClick={onClickNote}>
                 <ListItemIcon>
-                    <StickyNote2 color='primary'/>
+                    <StickyNote2 color='secondary'/>
                 </ListItemIcon>
                 <Grid container sx={{alignItems: 'center'}}>
                     <ListItemText primary={newTitle}/>

@@ -5,10 +5,10 @@ export const purpleTheme = createTheme({
     palette: {
         primary: {
             // main: '#262254'
-            main: '#224d54'
+            main: '#2D4263'
         },
         secondary: {
-            main: '#543884'
+            main: '#A12568'
         },
         error: {
             main: red.A400
